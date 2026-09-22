@@ -8,7 +8,7 @@
     "dev": "vite --host 0.0.0.0 --port 4173",
     "start-backend": "node server.js",
     "dev-backend": "nodemon --watch server.js --exec node server.js",
-    "build": "vite build && copy dist\\index.html dist\\404.html",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview --host 0.0.0.0 --port 4173",
     "deploy": "gh-pages -d dist"
